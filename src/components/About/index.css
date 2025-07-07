@@ -1,0 +1,56 @@
+.about-section {
+  padding: 60px 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.about-section.light {
+  background-color: #ffffff;
+  color: #1e1e1e;
+}
+
+.about-section.dark {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.theme-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.image-stack {
+  position: relative;
+}
+
+.blob-bg,
+.hand-img,
+.yellow-blob {
+  position: absolute;
+  width: 200px;
+}
+
+.about-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-content {
+  max-width: 700px;
+  padding: 20px;
+  text-align: left;
+}
+
+.dropcap {
+  font-size: 2.5rem;
+  float: left;
+  margin-right: 5px;
+}
+
+.emoji {
+  font-size: 1.2rem;
+}
